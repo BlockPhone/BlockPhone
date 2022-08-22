@@ -20,7 +20,7 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false)
             <S.BurguerMenu />
          </S.ContainerBurguer>
 
-      <S.ContainerItems showMenuBurguer={showMenuBurguer}>
+      <S.ContainerItems showMenuBurguer={showMenuBurguer }>
         <p>Sobre Nosotros</p>
         <p>Proyectos</p>
         <S.Button>📞Contactanos</S.Button>
