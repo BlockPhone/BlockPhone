@@ -10,7 +10,7 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false)
       <S.ImageLogo src="/img/logo.png" alt="Logo Blockphone" />
       <div> 
         <h1>BlockPhone</h1>
-        <h2>Bienvenido.</h2>
+        <h2>Reparaciones y Accesorios.</h2>
       </div>
       </S.ContainerLogo>
 
@@ -22,8 +22,8 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false)
 
       <S.ContainerItems showMenuBurguer={showMenuBurguer }>
         <p>Sobre Nosotros</p>
-        <p>Proyectos</p>
-        <S.Button>📞Contactanos</S.Button>
+        <p>Servicios</p>
+        <S.Button>- 📞Contactanos -</S.Button>
       </S.ContainerItems>
    </S.ContainerNavbar>
   );

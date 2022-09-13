@@ -29,7 +29,7 @@ const AboutMe = () => {
        <S.ContainerFlex>
          <S.ContainerText>
            <S.Title>
-             <p>👁‍🗨 Hello, I'm</p>
+             <p>👁‍🗨 Hola, somos</p>
              <p>BlockPhone</p>
              <p>Bienvenido</p>
            </S.Title>
@@ -37,13 +37,19 @@ const AboutMe = () => {
              lorem ipsum lorem ipsum lorem ipsum lorem ipsum
              lorem ipsum lorem ipsum lorem ipsum lorem ipsum
              lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+             lorem ipsum lorem ipsum lorem ipsum
            </S.DescriptionText>
           <S.ContainerIcons>
             {socialNetworks.map((network, index) => (
                <a key={index} href={network.link} target="_blank" rel="noreferrer">
                    <img src={network.logo} alt={network.name} />
                </a>
-            ))};
+            ))}
           </S.ContainerIcons>
          </S.ContainerText>
          <S.ContainerImage>
