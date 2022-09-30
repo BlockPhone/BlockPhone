@@ -4,7 +4,7 @@ import {projectsPortfolio} from "./ProjectsData";
 
 export const Projects = () => {
   return (
-  <S.ContainerProjects>
+  <S.ContainerProjects id="projects">
     <S.Title>
       Some of {" "}
       <span>
