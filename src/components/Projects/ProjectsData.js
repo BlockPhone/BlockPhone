@@ -8,7 +8,7 @@ export const projectsPortfolio = [
     {
         title: "Reparacion & Mantenimiento de Dispositivos",
         image: mantoImage,
-        description: "Reparacion & mantenimiento de dispositivos moviles, computadoras, etc. ",
+        description: "Reparacion & mantenimiento de dispositivos moviles, computadoras, etc."
     },
     {
         title: "Recargas TAE & Pago de Servicios",
@@ -24,7 +24,7 @@ export const projectsPortfolio = [
     {
         title: "Fundas & Accesorios",
         image: accesorImage,
-        description: "Venta de Micas, fundas, audifonos, gadgets, etc ",
+        description: "Venta de Micas, fundas, audifonos, gadgets, etc."
     },
 
 ]
